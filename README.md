@@ -1,7 +1,7 @@
 # Mutual Monitoring Server
 
 ## Pre-requisites
-* Docker
+* Docker must be installed on your machine (see https://docs.docker.com/get-docker/)
 
 ## How to use / deploy
 1. Using the terminal/command line, Git Clone this repository into a directory
@@ -10,5 +10,5 @@
 4. Type `docker run -it -p8080:80 mm_server` and press enter to execute. This will run the Mutual Monitoring Server for as long as the terminal remains open.
 
 ## How to shutdown the server
-* Bring up the terminal where the Mkutual Monitoring Server is running. Press 'CTRL+C'
+* Bring up the terminal where the Mutual Monitoring Server is running. Press `CTRL+C`
 
